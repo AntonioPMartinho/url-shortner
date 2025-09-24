@@ -1,13 +1,13 @@
-package com.urlshortner.url;
+package pt.antoniopmartinho.urlShortner;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UrlApplication {
+public class UrlShortnerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UrlApplication.class, args);
+		SpringApplication.run(UrlShortnerApplication.class, args);
 	}
 
 }
